@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Hotel | El Emperador</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	
+</head>
+
+<body>
+
+	<header class="header">
+		<a href="#" class="logo">Hotel El Emperador</a>
+		<nav class="navbar">
+			
+			<div class="btn-box">
+				<a href="registrar.html">Regístrate</a>
+				<a href="login.html">Inicia Sesión</a>
+			</div>
+		</nav>
+	</header>
+
+	<section class="home">
+		<div class="home-content">
+			<h1>Bienvenido !</h1>
+			<h3><span class="multiple-text"></span></h3>
+			<p>En nuestra web podrás ver tus reservas pendientes, crear nuevas reservas y cancelar tus reservas (aplican tyc).</p>
+		
+			
+			<form class="form-busqueda">
+				<div class="buscador">
+					<span class="span-bus"> Departamento</span>
+					<span class="span-bus">Fecha Ingreso</span>
+					<span class="span-bus">Fecha Salida</span>
+					<span class="span-bus">Huespedes</span>
+					<br>
+
+					<select name="departamento" id="departamento">
+						<option value="Cajamarca">Cajamarca</option>
+						<option value="Lima">Lima</option>
+						<option value="Piura">Piura</option>
+						<option value="Trujillo">Trujillo</option>
+					</select><input 
+
+						type="date" id="dechaInicio" name="Llegada"
+       					value=""
+       					min="2021-01-01" max="2024-12-31"><input 
+
+						type="date" id="dechaFin" name="Salida"
+       					value=""
+       					min="2021-01-01" max="2024-12-31"><input 
+						
+						type="number" id="cPersonas" name="Personas"
+						min="1" max="5" value="1"><a 
+						href="#"><i class='bx bx-search' ></i></box-icon>Buscar</a>
+				</div>
+			</form>
+		</div>
+
+		<div class="home-sci">
+			<a href="https://github.com/mikevargasrc"><i class='bx bxl-facebook'></i></a>	
+			<a href="https://www.instagram.com/mikevargasrc/"><i class='bx bxl-instagram'></i></a>
+			<a href="https://www.linkedin.com/in/maykolvargasb/"><i class='bx bxl-whatsapp' ></i></a>
+		</div>
+
+		<span class="home-imgHover"></span>
+
+	</section>
+
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
