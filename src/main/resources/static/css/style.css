@@ -450,6 +450,7 @@ body{
     background: var(--dark-blue);
     border-radius: 10px;
     border: 1px solid var(--dark-blue);
+	color: #154c79;
 }
 
 .container::before{
@@ -459,7 +460,7 @@ body{
     left: -5px;
     right: -5px;
     bottom: -5px;
-    background: linear-gradient(45deg, #0052d4, #4364f7, #6fb1fc), 200% 200%;
+    /*background: linear-gradient(45deg, #0052d4, #4364f7, #6fb1fc), 200% 200%;*/
     z-index: -1;
     filter: blur(50px);
 }
