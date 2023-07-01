@@ -32,8 +32,8 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                <div class="sidebar-brand-icon ">
+                    <img src="files/img/home.svg" width="30px" >
                 </div>
                 <div class="sidebar-brand-text mx-3">HOTEL "El Emperador" <sup></sup></div>
             </a>
@@ -45,7 +45,7 @@
                     <span>Reservar</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="reservar.html">
+                <a class="nav-link" href="misReservas.html">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Mis Reservas</span></a>
             </li>
@@ -143,7 +143,67 @@
                         <!-- First Column -->
                         <div class="col-lg-4">
 
+
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Datos de Cliente</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control form-control-user" id="txtDocIden"
+                                               placeholder="Documento de Identidad">
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <input type="text" class="form-control form-control-user"
+                                                   id="txtNombre" placeholder="Nombre">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control form-control-user"
+                                                   id="txtApellido" placeholder="Apellido">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <input type="text" class="form-control form-control-user"
+                                                   id="txtSexo" placeholder="Sexo">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control form-control-user"
+                                                   id="txtNacionalidad" placeholder="Nacionalidad">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <!-- Custom Text Color Utilities -->
+
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Tiempo de estadía
+                                    </h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-body">
+                                        <p class="text-lg">Fecha de ingreso: </p>
+                                        <input type="date" class="form-control form-control-user" id="fechaInicio"
+                                               placeholder="Fecha de ingreso">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="text-lg">Fecha de salida: </p>
+                                        <input type="date" class="form-control form-control-user" id="fechaSalida"
+                                               placeholder="Fecha de salida">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Custom Font Size Utilities -->
+
+
+                        </div>
+
+                        <!-- Second Column -->
+                        <div class="col-lg-4">
+
+                            <!-- Background Gradient Utilities -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary">Habitación</h6>
@@ -152,7 +212,7 @@
                                     <div class="card-body">
                                         <div>Tipo</div>
                                         <select type="text" class="form-control form-control-user" id="txtTipHab"
-                                               placeholder="Tipo de habitación ">
+                                                placeholder="Tipo de habitación ">
 
                                             <option>Simple</option>
                                             <option>Doble</option>
@@ -185,64 +245,6 @@
                                     </div>
                                 </div>
 
-                            </div>
-
-                            <!-- Custom Font Size Utilities -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Datos de Cliente</h6>
-                                </div>
-                                <div class="card-body">
-                                    <div class="form-group">
-                                        <input type="tel" class="form-control form-control-user" id="txtDocIden"
-                                               placeholder="Documento de Identidad">
-                                    </div>
-                                    <div class="form-group row">
-                                        <div class="col-sm-6 mb-3 mb-sm-0">
-                                            <input type="text" class="form-control form-control-user"
-                                                   id="txtNombre" placeholder="Nombre">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <input type="text" class="form-control form-control-user"
-                                                   id="txtApellido" placeholder="Apellido">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <div class="col-sm-6 mb-3 mb-sm-0">
-                                            <input type="text" class="form-control form-control-user"
-                                                   id="txtSexo" placeholder="Sexo">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <input type="text" class="form-control form-control-user"
-                                                   id="txtNacionalidad" placeholder="Nacionalidad">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Second Column -->
-                        <div class="col-lg-4">
-
-                            <!-- Background Gradient Utilities -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Tiempo de estadía
-                                    </h6>
-                                </div>
-                                <div class="card-body">
-                                    <div class="card-body">
-                                        <p class="text-lg">Fecha de ingreso: </p>
-                                        <input type="date" class="form-control form-control-user" id="fechaInicio"
-                                               placeholder="Fecha de ingreso">
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="text-lg">Fecha de salida: </p>
-                                        <input type="date" class="form-control form-control-user" id="fechaSalida"
-                                               placeholder="Fecha de salida">
-                                    </div>
-                                </div>
                             </div>
 
                         </div>
